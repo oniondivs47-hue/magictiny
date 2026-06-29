@@ -40,6 +40,8 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 .btn-primary:hover { background: var(--primary-dark); border-color: var(--primary-dark); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(45,106,79,0.3); }
 .btn-outline { background: transparent; color: var(--primary); border-color: var(--primary); }
 .btn-outline:hover { background: var(--primary); color: #fff; transform: translateY(-2px); }
+.btn-outline-h { background: transparent; color: var(--primary); border-color: #fff; }
+.btn-outline-h:hover { background: #fff; color: var(--primary); transform: translateY(-2px); }
 .btn-white { background: #fff; color: var(--primary); border-color: #fff; }
 .btn-white:hover { background: transparent; color: #fff; border-color: #fff; }
 .btn-lg { padding: 16px 36px; font-size: 1rem; border-radius: 10px; }
